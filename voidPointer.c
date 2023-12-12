@@ -1,0 +1,10 @@
+#include "stdio.h"
+
+int main(void){
+	int a = 1025;
+	int *p = &a;
+	printf("Address = %d\n",p);
+	void *p0;
+	p0 = p;
+	printf("Address = %d Value = %d\n",p0,*(int*)p0);
+} 

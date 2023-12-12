@@ -1,0 +1,6 @@
+#include "stdio.h"
+
+void main(void){
+	printf("\0123");
+	printf("\x0123");
+}
